@@ -2,7 +2,7 @@
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kdesdk-umbrello
-pkgver=4.10.97
+pkgver=4.11.0
 pkgrel=1
 pkgdesc='UML Modeller'
 url='http://kde.org/applications/development/umbrello/'
@@ -13,8 +13,8 @@ depends=('kdebase-runtime')
 makedepends=('cmake' 'automoc4' 'boost')
 optdepends=('ruby')
 install=${pkgname}.install
-source=("http://download.kde.org/unstable/${pkgver}/src/umbrello-${pkgver}.tar.xz")
-sha1sums=('3630a234a8ce144d91feebdba18b7f906ced5ebf')
+source=("http://download.kde.org/stable/${pkgver}/src/umbrello-${pkgver}.tar.xz")
+sha1sums=('ec1552e8d854c41ef5febcee581f4cc16b8869e6')
 
 build() {
   mkdir build
