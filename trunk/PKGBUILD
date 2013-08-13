@@ -2,7 +2,7 @@
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kdenetwork-kdnssd
-pkgver=4.10.97
+pkgver=4.11.0
 pkgrel=1
 pkgdesc='Monitors the network for DNS-SD services'
 url='https://projects.kde.org/projects/kde/kdenetwork/kdnssd'
@@ -11,8 +11,8 @@ license=('GPL' 'LGPL' 'FDL')
 groups=('kde' 'kdenetwork')
 depends=('kdebase-runtime')
 makedepends=('cmake' 'automoc4')
-source=("http://download.kde.org/unstable/${pkgver}/src/kdnssd-${pkgver}.tar.xz")
-sha1sums=('1df5b08fb2f0f1ad2f1c133e1f15e40ae94aa25b')
+source=("http://download.kde.org/stable/${pkgver}/src/kdnssd-${pkgver}.tar.xz")
+sha1sums=('d8957dab1a0516474b856bc5d1ef647be8dfb1a2')
 
 build() {
   mkdir build
