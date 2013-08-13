@@ -2,7 +2,7 @@
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kdetoys-kteatime
-pkgver=4.10.97
+pkgver=4.11.0
 pkgrel=1
 pkgdesc='Tea Cooker'
 url='http://kde.org/applications/games/kteatime/'
@@ -12,8 +12,8 @@ groups=('kde' 'kdetoys')
 depends=('kdebase-runtime')
 makedepends=('cmake' 'automoc4')
 install=${pkgname}.install
-source=("http://download.kde.org/unstable/${pkgver}/src/kteatime-${pkgver}.tar.xz")
-sha1sums=('1ac8eabd4898015be9f488a2c87f7cec459d0dca')
+source=("http://download.kde.org/stable/${pkgver}/src/kteatime-${pkgver}.tar.xz")
+sha1sums=('e3cccbe39e819e309a0ee6ddf5ccb1130aaa06c3')
 
 build() {
   mkdir build
