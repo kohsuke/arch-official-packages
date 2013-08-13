@@ -2,7 +2,7 @@
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kdesdk-kcachegrind
-pkgver=4.10.97
+pkgver=4.11.0
 pkgrel=1
 pkgdesc='Visualization of Performance Profiling Data'
 url='http://kde.org/applications/development/kcachegrind/'
@@ -13,8 +13,8 @@ depends=('kdebase-runtime' 'python2')
 makedepends=('cmake' 'automoc4')
 optdepends=('php: PHP support')
 install=${pkgname}.install
-source=("http://download.kde.org/unstable/${pkgver}/src/kcachegrind-${pkgver}.tar.xz")
-sha1sums=('fe4ad8e2f5c5b9c1c8447348b87bf1a3ca53e123')
+source=("http://download.kde.org/stable/${pkgver}/src/kcachegrind-${pkgver}.tar.xz")
+sha1sums=('394666271ad4997710e937f0db8f80c80790c8c9')
 
 build() {
   mkdir build
