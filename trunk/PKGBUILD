@@ -2,7 +2,7 @@
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kdenetwork-krfb
-pkgver=4.10.97
+pkgver=4.11.0
 pkgrel=1
 pkgdesc='Desktop Sharing'
 url='http://www.kde.org/applications/system/krfb'
@@ -14,8 +14,8 @@ groups=('kde' 'kdenetwork')
 #   but nvidia providing libgl does not depend on libxdamage
 depends=('kdebase-runtime' 'libvncserver' 'libxdamage' 'telepathy-qt')
 makedepends=('cmake' 'automoc4')
-source=("http://download.kde.org/unstable/${pkgver}/src/krfb-${pkgver}.tar.xz")
-sha1sums=('388764a6a86d11df6fe067c53785a9d626f7c22f')
+source=("http://download.kde.org/stable/${pkgver}/src/krfb-${pkgver}.tar.xz")
+sha1sums=('06dd1c34622e7bb2748053e262bdb5e087997b1c')
 
 build() {
   mkdir build
